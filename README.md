@@ -2,15 +2,7 @@
 
 This repository demonstrates a Retrieval-Augmented Generation (RAG) pipeline using OpenAI GPT models to build a chatbot that can answer questions from PDF documents.
 
-## Features
 
-- **PDF Loader**: Extract text from PDFs with metadata (e.g., page numbers).
-- **Vector Search**: Efficient retrieval using Chroma vector stores.
-- **Token Tracking**: Monitor token usage and estimated costs for queries.
-- **Streaming Responses**: Get incremental outputs from OpenAI GPT for a better user experience.
-- **Persistence**: Save embeddings for reuse, avoiding reprocessing.
-
-## Installation
 
 ### Prerequisites
 
